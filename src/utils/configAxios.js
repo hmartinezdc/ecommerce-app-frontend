@@ -1,8 +1,8 @@
 import axios from "axios";
 
 export const axiosEcommerce = axios.create({
-    baseURL: "https://ecommerce-api-vwu3.onrender.com/"
-    // baseURL: "https://e-commerce-api-v2.academlo.tech/api/v1/"
+    // baseURL: "https://ecommerce-api-vwu3.onrender.com/"
+    baseURL: "https://e-commerce-api-v2.academlo.tech/api/v1/"
 })
 
 export const getConfig = () => {
